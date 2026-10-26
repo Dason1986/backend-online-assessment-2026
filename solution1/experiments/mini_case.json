@@ -1,0 +1,13 @@
+{
+  "case_id": "mini_two_stations",
+  "report_horizon_s": 80,
+  "stations": {
+    "S1": {"cycle_s": 40},
+    "S2": {"cycle_s": 40}
+  },
+  "jobs": [
+    {"job_id": "M1", "station_id": "S1", "ready_s": 0},
+    {"job_id": "M2", "station_id": "S1", "ready_s": 0},
+    {"job_id": "M3", "station_id": "S2", "ready_s": 0}
+  ]
+}

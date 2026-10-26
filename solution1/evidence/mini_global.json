@@ -1,0 +1,25 @@
+{
+  "runs": [
+    {
+      "job_id": "M1",
+      "station_id": "S1",
+      "ready_s": 0,
+      "start_s": 0,
+      "end_s": 40
+    },
+    {
+      "job_id": "M2",
+      "station_id": "S1",
+      "ready_s": 0,
+      "start_s": 40,
+      "end_s": 80
+    },
+    {
+      "job_id": "M3",
+      "station_id": "S2",
+      "ready_s": 0,
+      "start_s": 80,
+      "end_s": 120
+    }
+  ]
+}

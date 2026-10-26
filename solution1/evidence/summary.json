@@ -1,0 +1,93 @@
+{
+  "baseline": {
+    "valid": true,
+    "errors": [],
+    "unique_jobs": 240,
+    "planned_jobs": 240,
+    "completed_within_horizon": 90,
+    "horizon_s": 3600,
+    "last_completion_s": 9600,
+    "station_utilization_within_horizon": {
+      "S1": 0.5,
+      "S2": 0.5
+    },
+    "note": "Virtual replay metrics; validation does not grade problem selection or production readiness"
+  },
+  "fixed": {
+    "valid": true,
+    "errors": [],
+    "unique_jobs": 240,
+    "planned_jobs": 240,
+    "completed_within_horizon": 180,
+    "horizon_s": 3600,
+    "last_completion_s": 4800,
+    "station_utilization_within_horizon": {
+      "S1": 1.0,
+      "S2": 1.0
+    },
+    "note": "Virtual replay metrics; validation does not grade problem selection or production readiness"
+  },
+  "counterexample_global": {
+    "valid": true,
+    "errors": [],
+    "unique_jobs": 3,
+    "planned_jobs": 3,
+    "completed_within_horizon": 2,
+    "horizon_s": 80,
+    "last_completion_s": 120,
+    "station_utilization_within_horizon": {
+      "S1": 1.0,
+      "S2": 0.0
+    },
+    "note": "Virtual replay metrics; validation does not grade problem selection or production readiness"
+  },
+  "counterexample_per_station": {
+    "valid": true,
+    "errors": [],
+    "unique_jobs": 3,
+    "planned_jobs": 3,
+    "completed_within_horizon": 3,
+    "horizon_s": 80,
+    "last_completion_s": 80,
+    "station_utilization_within_horizon": {
+      "S1": 1.0,
+      "S2": 0.5
+    },
+    "note": "Virtual replay metrics; validation does not grade problem selection or production readiness"
+  },
+  "counterexample_overlap": {
+    "valid": false,
+    "errors": [
+      "station:S1: overlap between M1 and M2"
+    ],
+    "unique_jobs": 3,
+    "planned_jobs": 3,
+    "completed_within_horizon": 3,
+    "horizon_s": 80,
+    "last_completion_s": 60,
+    "station_utilization_within_horizon": {
+      "S1": 1.0,
+      "S2": 0.5
+    },
+    "note": "Virtual replay metrics; validation does not grade problem selection or production readiness"
+  },
+  "resume": {
+    "step1_vs_final": {
+      "subset_count": 20,
+      "full_count": 240,
+      "subset_rows_identical": true,
+      "mismatched_job_ids": [],
+      "duplicate_plan_rows": false,
+      "missing_in_full": []
+    },
+    "reimport_vs_final": {
+      "subset_count": 240,
+      "full_count": 240,
+      "subset_rows_identical": true,
+      "mismatched_job_ids": [],
+      "duplicate_plan_rows": false,
+      "missing_in_full": []
+    }
+  },
+  "platform_passed": true
+}
